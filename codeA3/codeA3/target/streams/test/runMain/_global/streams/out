@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.dataWrite <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.writeEnable <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.done <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.address <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 4 errors detected![0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mrunMain[0m) firrtl.passes.PassExceptions: [0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.dataWrite <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.writeEnable <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.done <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module Accelerator]  Reference io is not fully initialized.[0m
+[0m[[0m[31merror[0m] [0m[0m   : io.address <= VOID[0m
+[0m[[0m[31merror[0m] [0m[0mfirrtl.passes.PassException: 4 errors detected![0m

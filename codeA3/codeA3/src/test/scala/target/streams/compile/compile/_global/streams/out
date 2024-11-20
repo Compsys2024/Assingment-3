@@ -1,0 +1,196 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:1:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:7:39: not found: type PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloTester(dut: Hello) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:7:24: not found: type Hello[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloTester(dut: Hello) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:7:54: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloTester(dut: Hello) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:9:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\Images.scala:1:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:19:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:20:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:21:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, address)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:22:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemDataWrite, image(address))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:23:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:25:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.testerDataMemEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:30:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:36:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:37:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.start, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:39:15: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    running = peek(dut.io.done) == 0 && cyclesCounter > 0[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:41:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:48:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:49:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:50:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, i)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:51:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = peek(dut.io.testerDataMemDataRead)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:54:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:58:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:59:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:60:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, i)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:61:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = peek(dut.io.testerDataMemDataRead)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:64:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:66:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.testerDataMemEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:81:5: not found: value iotesters[0m
+[0m[[0m[31merror[0m] [0m[0m    iotesters.Driver.execute([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\HelloTester.scala:85:17: not found: type Hello[0m
+[0m[[0m[31merror[0m] [0m[0m      () => new Hello()) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\Images.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\Images.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:1:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.iotesters.PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:7:47: not found: type PeekPokeTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass SystemTopTester(dut: SystemTop) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:7:28: not found: type SystemTop[0m
+[0m[[0m[31merror[0m] [0m[0mclass SystemTopTester(dut: SystemTop) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:7:62: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass SystemTopTester(dut: SystemTop) extends PeekPokeTester(dut) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:9:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:19:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:20:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:21:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, address)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:22:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemDataWrite, image(address))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:23:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:25:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.testerDataMemEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:31:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:37:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:38:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.start, 0) //Start bit is 1 only for 1 cycle[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:40:15: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    running = peek(dut.io.done) == 0 && cyclesCounter > 0[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:42:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.start, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:49:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:50:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:51:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, i)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:52:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = peek(dut.io.testerDataMemDataRead)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:55:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:59:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemEnable, 1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:60:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemWriteEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:61:5: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m    poke(dut.io.testerDataMemAddress, i)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:62:16: not found: value peek[0m
+[0m[[0m[31merror[0m] [0m[0m    val data = peek(dut.io.testerDataMemDataRead)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:65:5: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m    step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:67:3: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m  poke(dut.io.testerDataMemEnable, 0)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:82:5: not found: value iotesters[0m
+[0m[[0m[31merror[0m] [0m[0m    iotesters.Driver.execute([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\artur\Documents\02132-Compsys\codeA3\codeA3\codeA3\src\test\scala\SystemTopTester.scala:86:17: not found: type SystemTop[0m
+[0m[[0m[31merror[0m] [0m[0m      () => new SystemTop()) {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m65 errors found[0m
